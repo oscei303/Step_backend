@@ -10,4 +10,11 @@ class UsersController < ApplicationController
 
         render json: user
     end
+
+    def create
+        # byebug
+        user = User.create(username: params[:username], password_digest: params[:password_digest])
+
+        render json: user
+    end
 end
