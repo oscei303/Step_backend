@@ -1,24 +1,17 @@
-# README
+Step(!!!)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Step(!!!) is a music step sequencer that allows users to save, load, musical patterns by activating a step to generate a sound.
 
-Things you may want to cover:
+It leverages a custom UI with each channel having unique WaveMunipulation(ATTACK,DECAY,SUSTAIN,RELEASE) along with note selection and wave origin.
 
-* Ruby version
+Users can load and clear patterns in real time providing a easy to use way to generate melodies!
 
-* System dependencies
+The top matrix provies a 16 step sequencer that generates synth voices in Tone.js
 
-* Configuration
+The bottom matrix is 16 step Drum sequencer that uses tone.js player to trigger drum samples from my own library.
 
-* Database creation
+Hope you enjoy it :)
 
-* Database initialization
+Technologies Used:
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Javascript,React,Ruby Rails, ReactHooks, Tone.Js
